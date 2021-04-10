@@ -1,0 +1,20 @@
+{
+  "translates": {
+    "title": "What kind of user are you?",
+    "label_discount": "Enjoy a 10% discount on your reservation just for signup"
+  },
+  "radios": [
+    {
+      "label": "A hotel gest",
+      "value": "1"
+    },
+    {
+      "label": "A travel agency",
+      "value": "2"
+    },
+    {
+      "label": "A company",
+      "value": "3"
+    }
+  ]
+}

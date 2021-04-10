@@ -1,0 +1,17 @@
+{
+  "translates": {
+    "title": "Welcome ",
+    "advantages": "Advantages",
+    "buttonContinue": "Continue"
+  },
+  "discounts": [
+    {
+      "title": "Discount!",
+      "description": "Enjoy a 10% discount on your reservation"
+    },
+    {
+      "title": "Discount!",
+      "description": "24hs / 365 days phone 900 - 000 - 000"
+    }
+  ]
+}

@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { Route, BrowserRouter, Redirect } from 'react-router-dom';
+import LoyaltyPage from './pages/loyalty.page';
+import WelcomePage from './pages/welcome.page';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Route path="/loyalti" component={LoyaltyPage} />
+        <Route path="/welcome" component={WelcomePage} />
+        <Route exact path="/">
+          <Redirect to="/loyalti" />
+        </Route>
+      </BrowserRouter>
     </div>
   );
 }

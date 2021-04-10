@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("./assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.loyalti-container {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.loyalti-template {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.welcome-container {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.welcome-template {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.title-welcome {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.legend {
+  color: white !important;
+}
+
+.form-radio-container {
+  margin-top: 20px !important;
+}
+
+.discount-item-container {
+  margin: 10px !important;
+}

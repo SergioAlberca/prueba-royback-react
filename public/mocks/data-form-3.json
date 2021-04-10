@@ -1,0 +1,33 @@
+{
+  "translates": {
+    "title": "Company",
+    "legend": "* Required Files",
+    "buttonTitle": "Send"
+  },
+  "fields": [
+    {
+      "id": "name",
+      "label": "Company Name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "contact_email",
+      "label": "Contact Email",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "phone",
+      "label": "Phone",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "comment",
+      "label": "Comments",
+      "type": "text",
+      "required": false
+    }
+  ]
+}

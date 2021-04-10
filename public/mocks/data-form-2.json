@@ -1,0 +1,32 @@
+{
+  "translates": {
+    "title": "Travel Agency",
+    "legend": "* Required Files",
+    "buttonTitle": "Send"
+  },
+  "fields": [
+    {
+      "id": "name",
+      "label": "Agency Name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "contact_name",
+      "label": "Contact Name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "contact_email",
+      "label": "Contact Email",
+      "type": "email",
+      "required": true
+    },
+    {
+      "id": "id_code",
+      "label": "Agency Id Code",
+      "type": "text"
+    }
+  ]
+}
